@@ -1,0 +1,52 @@
+.carousel img{
+    height: 300px !important;
+}
+
+#titulo{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bot{
+    padding-top: 2%;
+}
+
+.card-img-top{
+    height: 120px!important;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel img{
+        height: 150px !important;
+    }
+
+    .bot{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+
+    .col-sm-12 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+}
+
+.col-lg-4, .col-md-6 {
+    padding: 0;
+}
+
+.card {
+    margin: 0 auto; 
+    padding: 15px;
+}
+.card-body {
+    padding: 15px; 
+}
+
+.col-sm-12 {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0;
+}
